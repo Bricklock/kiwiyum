@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Kiwiyum</string>
+    <string name="version_prefix">Version: </string>
+    <string name="versionName"> 0.0.1</string>
+
+    <string name="action_settings"> TESTSETSETSET </string>
+
+    <string name="record_throws">Record</string>
+    <string name="throwing">Throws</string>
+    <string name="righty">Righty</string>
+    <string name="lefty">Lefty</string>
+    <string name="backhand">Backhand</string>
+    <string name="forehand">Forehand</string>
+    <string name="hammer">Hammer</string>
+    <string name="scoober">Scoober</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="startup_screen">Startup</string>
+    <string name="home_screen">Homepage</string>
+    <string name="Main_Activity">Main_Activity</string>
+    <string name="collecting_screen">Collecting</string>
+    <string name="recording_screen">Recording</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+</resources>

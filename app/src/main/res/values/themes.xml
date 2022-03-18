@@ -1,0 +1,51 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Kiwiyum" parent="Theme.MaterialComponents.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/Carrot_Orange</item>
+        <item name="colorPrimaryVariant">@color/Carrot_Orange_light</item>
+        <item name="colorOnPrimary">@color/Jet_light</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/Green_RYB</item>
+        <item name="colorSecondaryVariant">@color/Green_RYB_light</item>
+        <item name="colorOnSecondary">@color/Jet</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.Kiwiyum.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Kiwiyum.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Kiwiyum.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Theme.Kiwiyum.Fullscreen" parent="Theme.Kiwiyum">
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+    <style name="Theme.Kiwiyum.StartScreen" parent="Theme.Kiwiyum">
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+
+    </style>
+
+    <style name="ThemeOverlay.Kiwiyum.FullscreenContainer" parent="">
+        <item name="fullscreenBackgroundColor">@color/Jet</item>
+        <item name="fullscreenTextColor">@color/Green_RYB</item>
+    </style>
+</resources>

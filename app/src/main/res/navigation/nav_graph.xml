@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/startup">
+    <activity
+        android:id="@+id/startup"
+        android:name="app.kiwiyum.Startup"
+        android:label="startup"
+        tools:layout="@layout/startup" />
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="app.kiwiyum.MainActivity"
+        android:label="mainactivity"
+        tools:layout="@layout/mainactivity" />
+</navigation>
