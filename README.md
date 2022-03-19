@@ -1,6 +1,6 @@
-#Kiwiyum README #
+#Kiwiyum README
 
-##Set up Dev Environment ##
+##Set up Dev Environment
 
 * Use Android studio or IntelliJ Idea
 * Clone the repo
